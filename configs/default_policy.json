@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "product": "dup-policy-gate",
+  "futures_auto": false,
+  "spot_only": true,
+  "allowed_markets": ["spot"],
+  "allowed_sectors": ["spot_alts", "memes", "listings"],
+  "blocked_sectors": ["futures", "futures_long", "futures_short"],
+  "max_quote_usdt_micros": 5000000,
+  "max_open_positions": 2,
+  "require_dry_run_without_keys": true,
+  "require_ops_ready_for_live": true,
+  "refuse_leverage": true,
+  "note": "quote micros: 1 USDT = 1_000_000 micros; default cap 5 USDT"
+}

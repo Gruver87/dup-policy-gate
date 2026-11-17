@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "dup-policy-gate": {
+      "command": "python",
+      "args": ["-m", "policy_gate.mcp_server"],
+      "env": {}
+    }
+  }
+}
