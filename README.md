@@ -11,6 +11,8 @@ beyond crypto (caps, market-mode blocks, audit JSONL). First stand: Market Radar
 Checks intents. Does **not** place orders. **FUTURES_BLOCK** always.  
 Live without KuCoin Spot keys in env → **refuse** (dry_run still allowed).
 
+**Beginner?** → [`docs/START_HERE.md`](docs/START_HERE.md)
+
 | Related | Role |
 |---------|------|
 | [`dup-market-radar`](https://github.com/Gruver87/dup-market-radar) | Spot ops / trade API |
